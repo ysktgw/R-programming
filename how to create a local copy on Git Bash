@@ -1,0 +1,6 @@
+Open Git Bash 
+$mkdir ~/test-repo
+$cd ~/test-repo 
+$git init 
+$git remote add origin http://github.com/ysktgw/R-programming.git 
+
