@@ -1,6 +1,12 @@
+
+1st Method
 Open Git Bash 
 $mkdir ~/test-repo
 $cd ~/test-repo 
 $git init 
-$git remote add origin http://github.com/ysktgw/R-programming.git 
+$git remote add origin http://github.com/ysktgw/R-programming.git  ## Connecting local and online copy 
 
+2nd Method 
+Fork 
+and go to Git Bash                         
+$ git clone https://github.com/ysktgw/ForkedReponame.git         ## Cloning repo 
