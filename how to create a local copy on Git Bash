@@ -10,3 +10,6 @@ $git remote add origin http://github.com/ysktgw/R-programming.git  ## Connecting
 Fork 
 and go to Git Bash                         
 $ git clone https://github.com/ysktgw/ForkedReponame.git         ## Cloning repo 
+
+
+GO TO http://git-scm.com/book/en/Git-Basica-Getting-a-Git-Repository
