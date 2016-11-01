@@ -1,0 +1,23 @@
+Swirl 4 : Vectors 
+
+  logical operators 
+    <, <= , == 
+    or != for inequality 
+    
+ When we have two logical expressions A & B 
+ A|B (either is True) 
+ A&B (both ) 
+ !A  (negation of A) 
+ 
+ "" are used to distinguish character objects 
+ 
+paste(my_char, collapse=" ") connect the character strings 
+
+To add (or cocatenate) to the my_char, use 
+c(my_char, "Yasuko") 
+
+
+paste("Hello", "world", sep=" ") 
+
+you can also combine the vectors
+
