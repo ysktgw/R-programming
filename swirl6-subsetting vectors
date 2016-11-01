@@ -1,0 +1,23 @@
+x[1:10] shows the first 10 elements of x
+[index vector] 
+
+
+index vector- logical, positive integers, negative integers, character strings 
+
+x[!is.na(x)] gives you all the non-NA values from x
+
+x[!is.na(x)& x>0]
+
+R is 'one-based indexing'-first element of a vector is considered as 1 
+
+R doesn't stop you from asking for out of the bounds so beaware! 
+
+x[c(2,10)] 
+x[c(-2, -10)] gives you all elements of x except for 2nd and 10th x
+== x[-c(2,10)]
+
+you can name elements; 
+vect <-c(foo=11, bar=2) 
+
+or you can add `names` attributes
+names(vect2) <-c("foo", "bar") 
