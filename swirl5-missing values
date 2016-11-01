@@ -1,0 +1,7 @@
+is.na() == variable==NA
+
+R represents TRUE as the #1, and FALSE as the 0. 
+take sum() to see how many NAs in a variable
+
+
+NaN- not a number 
