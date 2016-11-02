@@ -1,0 +1,25 @@
+While loops begin by testing a condtion. 
+If it is true, then they execute the loop body. 
+Once the loop body is executed, the condition is teseted again, and forth. 
+
+count <-0
+while(count <10){
+print(count)
+count <-count +1 
+} 
+
+You have to make sure the condition stops eventually 
+
+z <-5
+while(z>=3 && x<=10){
+print(z) 
+coin <-rbinom(1,1,0.5)
+
+if(coin==1){ ##random walk
+z <-z+1
+} else { 
+z <-z-1 
+}
+} 
+
+condition checking always goes from left to right 
