@@ -1,0 +1,31 @@
+Repeat 
+  -repeat initiates an infinite loop; these are not commonly used in sats apps, but they do have their uses 
+  - the only way to exit a repeat loop is to call break 
+  
+x0 <-1
+tol <-le-8
+
+repeat{
+      x1 <- computeEstimate()
+      
+      if(abs(x1-x0 <tol) {
+        break
+        } else {
+              x0 <-x1
+        }
+     } 
+     
+Next 
+  - next is used to skip an iteration of a loop 
+  
+for(i in 1:100){
+        if(i <=20){
+          ## Skip the first 20 iterations 
+            next
+            }
+            ## do something else here
+        } 
+        
+
+Return tells that a functions should exit and return a given value 
+
